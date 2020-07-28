@@ -3,7 +3,7 @@
 <title>PHP</title>
 </head>
 <body>
-<form action="getpost.php" method="post">
+<form action="" method="post">
 
 <input type="text" name="firstname" placeholder="First Name" />
 
