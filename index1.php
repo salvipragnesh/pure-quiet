@@ -19,7 +19,7 @@ if(isset($_POST['firstname']))
 {
 $data = $_POST['firstname'];
 $file1 = fopen('newfile.txt','a');
-fwrite($file1,$data);
+file_put_contents($file1,$data);
 fclose($file1); 
 }
 ?>
