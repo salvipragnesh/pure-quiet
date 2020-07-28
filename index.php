@@ -1,3 +1,3 @@
 <?php
-header:location('index1.php');
+include_once("index1.php");
 ?>
